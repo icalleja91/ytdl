@@ -1,0 +1,1 @@
+cd /home/calleja/PythonScripts/youtube && uv sync --upgrade && uv run yt.py
