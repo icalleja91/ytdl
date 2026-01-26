@@ -30,7 +30,8 @@ CANAL_CONFIG = {
     "Betto": {"url": "https://www.youtube.com/@SrtoBetto/videos"},
     "BettaTech": {"url": "https://www.youtube.com/@BettaTech/videos"},
     "Mafius": {"url": "https://www.youtube.com/@MAFIUSS/videos"},
-    "LearnThatStack": {"url": "https://www.youtube.com/@LearnThatStack/videos"}
+    "LearnThatStack": {"url": "https://www.youtube.com/@LearnThatStack/videos"},
+    "SotoIvars": {"url": "https://www.youtube.com/@JuanSotoIvarsYtb/videos"},
 }
 
 # === FUNCIONES ===
@@ -43,7 +44,8 @@ def descargar_videos(canal_url, carpeta_salida):
         'format': 'best',
         'quiet': False,
         'ignoreerrors': True,
-        'playlistend': ULTIMOS_N_VIDEOS
+        'playlistend': ULTIMOS_N_VIDEOS,
+        'remote_components': ['ejs:github']
     }
 
     with YoutubeDL(opciones) as ydl:
