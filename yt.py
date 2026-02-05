@@ -32,6 +32,8 @@ CANAL_CONFIG = {
     "Mafius": {"url": "https://www.youtube.com/@MAFIUSS/videos"},
     "LearnThatStack": {"url": "https://www.youtube.com/@LearnThatStack/videos"},
     "SotoIvars": {"url": "https://www.youtube.com/@JuanSotoIvarsYtb/videos"},
+    "BaityPlus": {"url": "https://www.youtube.com/@BaityPluss/videos"},
+    "DrLaRosa": {"url": "https://www.youtube.com/@DRLAROSA/videos"},
 }
 
 # === FUNCIONES ===
